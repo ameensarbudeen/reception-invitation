@@ -8,6 +8,7 @@
     font-family: sans-serif;
     background-color: #f6f2e7;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
   
   .page {
