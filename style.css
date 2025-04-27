@@ -28,16 +28,21 @@
   
   .floating-footer {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f6f2e7;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    z-index: 1000;
+    padding: 8px 0;
+    z-index: 9999;
   }
   
   .floating-footer img {
-    width: 40px;
-    height: 40px;
+    width: 36px; /* smaller icons */
+    height: auto;
   }
 
   html, body {
